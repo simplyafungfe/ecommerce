@@ -13,43 +13,30 @@
 </head>
 <!-- the navbar -->
 <div class="upnav">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 w-100"">
+        <li class="nav-item active">
+          <a class="nav-linking" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex flex-md-row">
+        <input class="form-control" style="width: 60vh;" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
   </div>
   <!-- the second navbar -->
   <div class="down_navbar">
@@ -84,7 +71,15 @@
          mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./image/photo1.jpg" class="d-block w-100" alt="...">
+            <!-- <img src="./image/photo1.jpg" class="d-block w-100" alt="..."> -->
+            <img src="./image/front/advertisement.jpg" class="img-fluid top-100 align-top" alt="">
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="./image/photo1.jpg" class="d-block w-100" alt="..."> -->
+            <img src="./image/front/makeup selection.jpg" class="img-fluid top-100 align-top" alt="">
+          </div> <div class="carousel-item ">
+            <!-- <img src="./image/photo1.jpg" class="d-block w-100" alt="..."> -->
+            <img src="./image/front/tablecouch.jpg" class="img-fluid top-100 align-top" alt="">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -103,9 +98,29 @@
     <section class="row">
       <div class="col-xs-6 col-sm-4 col-lg-3">
         <div class="card w-100 h-100">
-          <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+          <h5 class="card-header text-center border-0">Gaming Accessories</h5>
           <div class="card w-100 h-100 border-0" style="width: 18rem;">
-            <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+            <div class="row">
+              <div class="col-6">
+                <img src="./image/keyboard.jpg" class="card-img-top h-100" alt="...">
+                <a href="#" class="text-decoration-none" style="color:black; ">Keyboard</a>
+              </div>
+              <div class="col-6">
+                <img src="./image/couch.jpg" class="card-img-top h-100" alt="...">
+                <a href="#" class="text-decoration-none" style="color:black; ">Couch</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <img src="./image/mouse.jpg" class="card-img-top h-100" alt="...">
+                <a href="#" class="text-decoration-none" style="color:black; ">Mouse</a>
+              </div>
+              <div class="col-6">
+                <img src="./image/cisco.jpg" class="card-img-top h-100" alt="...">
+                <a href="#" class="text-decoration-none" style="color:black; ">Cisco</a>
+              </div>
+            </div>
+            <!-- <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="..."> -->
             <div class="card-body">
               <a href="#" class="text-decoration-none">Shop now</a>
             </div>
@@ -115,9 +130,21 @@
 
       <div class="col-xs-6 col-sm-4 col-lg-3">
         <div class="card w-100 h-100">
-          <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+          <h5 class="card-header text-center border-0">Home refreshed ideas</h5>
           <div class="card w-100 h-100 border-0" style="width: 18rem;">
-            <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+            <img src="./image/XCM_CUTTLE_1559454_3018199_758x608_2X_en_US._SY608_CB592739737_.jpg" class="card-img-top h-100" alt="...">
+            <div class="card-body">
+              <a href="#" class="text-decoration-none">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-lg-3">
+        <div class="card w-100 h-100">
+          <h5 class="card-header text-center border-0">Dresses for shoping</h5>
+          <div class="card w-100 h-100 border-0" style="width: 18rem;">
+            <img src="./image/Fuji_dash_dress_2X._SY608_CB626369146_.jpg" class="card-img-top h-100" alt="...">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Shop now</a>
             </div>
@@ -127,21 +154,29 @@
 
       <div class="col-xs-6 col-sm-4 col-lg-3">
         <div class="card w-100 h-100">
-          <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+          <h5 class="card-header text-center border-0">Toiletteries</h5>
           <div class="card w-100 h-100 border-0" style="width: 18rem;">
-            <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
-            <div class="card-body">
-              <a href="#" class="text-decoration-none">Shop now</a>
+            <div class="row">
+              <div class="col-6">
+                <img src="./image/toothpaste.jpg" class="card-img-top h-100" alt="...">
+                
+              </div>
+              <div class="col-6">
+                <img src="./image/toothpaste2.jpg" class="card-img-top h-100" alt="...">
+                
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-6 col-sm-4 col-lg-3">
-        <div class="card w-100 h-100">
-          <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
-          <div class="card w-100 h-100 border-0" style="width: 18rem;">
-            <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+            <div class="row">
+              <div class="col-6">
+                <img src="./image/toothpaste3.jpg" class="card-img-top h-100" alt="...">
+               
+              </div>
+              <div class="col-6">
+                <img src="./image/toothpaste4.jpg" class="card-img-top h-100" alt="...">
+               
+              </div>
+            </div>
+            <!-- <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="..."> -->
             <div class="card-body">
               <a href="#" class="text-decoration-none">Shop now</a>
             </div>
@@ -157,9 +192,9 @@
       <!-- <div class="row w-100 h-auto j"> -->
         <div class="col-xs-6 col-sm-4 col-lg-3">
           <div class="card w-100 h-100">
-            <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+            <h5 class="card-header text-center border-0">Discover fashion Trends</h5>
             <div class="card w-100 h-100 border-0" style="width: 18rem;">
-              <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+              <img src="./image/fashion.jpg" class="card-img-top h-100" alt="...">
               <div class="card-body">
                 <a href="#" class="text-decoration-none">Shop now</a>
               </div>
@@ -170,9 +205,9 @@
       
       <div class="col-xs-6 col-sm-4 col-lg-3">
         <div class="card w-100 h-100">
-          <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+          <h5 class="card-header text-center border-0">For your fitness needs</h5>
           <div class="card w-100 h-100 border-0" style="width: 18rem;">
-            <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+            <img src="./image/Fuji_Dash_Electronics_1x._SY304_CB432774322_.png" class="card-img-top h-100" alt="...">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Shop now</a>
             </div>
@@ -182,9 +217,9 @@
 
       <div class="col-xs-6 col-sm-4 col-lg-3">
         <div class="card w-100 h-100">
-          <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+          <h5 class="card-header text-center border-0">Smart watch tracker and smart watches</h5>
           <div class="card w-100 h-100 border-0" style="width: 18rem;">
-            <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+            <img src="./image/fuji_smart_watch.jpg" class="card-img-top h-100" alt="...">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Shop now</a>
             </div>
@@ -263,7 +298,7 @@
           <div class="card w-100 h-100">
             <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
             <div class="card w-100 h-100 border-0" style="width: 18rem;">
-              <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+              <img src="./image/sports.jpg" class="card-img-top h-100" alt="...">
               <div class="card-body">
                 <a href="#" class="text-decoration-none">Shop now</a>
               </div>
@@ -273,22 +308,9 @@
 
         <div class="col-xs-6 col-sm-4 col-lg-3">
           <div class="card w-100 h-100">
-            <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+            <h5 class="card-header text-center border-0">Quality makeup</h5>
             <div class="card w-100 h-100 border-0" style="width: 18rem;">
-              <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
-              <div class="card-body">
-                <a href="#" class="text-decoration-none">Shop now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-
-        <div class="col-xs-6 col-sm-4 col-lg-3">
-          <div class="card w-100 h-100">
-            <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
-            <div class="card w-100 h-100 border-0" style="width: 18rem;">
-              <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+              <img src="./image/makeup.jpg" class="card-img-top h-100" alt="...">
               <div class="card-body">
                 <a href="#" class="text-decoration-none">Shop now</a>
               </div>
@@ -299,9 +321,22 @@
 
         <div class="col-xs-6 col-sm-4 col-lg-3">
           <div class="card w-100 h-100">
-            <h5 class="card-header text-center border-0">Health and  Personal Care</h5>
+            <h5 class="card-header text-center border-0">New arrivals in toys</h5>
             <div class="card w-100 h-100 border-0" style="width: 18rem;">
-              <img src="./image/toiletteries.jpg" class="card-img-top h-100" alt="...">
+              <img src="./image/Fuji_Dash_Toys_2X._SY608_CB639759849_.jpg" class="card-img-top h-100" alt="...">
+              <div class="card-body">
+                <a href="#" class="text-decoration-none">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="col-xs-6 col-sm-4 col-lg-3">
+          <div class="card w-100 h-100">
+            <h5 class="card-header text-center border-0">Shop pet supplies</h5>
+            <div class="card w-100 h-100 border-0" style="width: 18rem;">
+              <img src="./image/Fuji_Dash_Pets_2X._SY608_CB639746708_ (1).jpg" class="card-img-top h-100" alt="...">
               <div class="card-body">
                 <a href="#" class="text-decoration-none">Shop now</a>
               </div>
@@ -317,8 +352,21 @@
     <div class="carousel-item active">
       <!-- <img src="..." class="d-block w-100" alt="..."> -->
         <div class="row">
-          <div class="col-3">
-            <div class="card  w-100 h-100" style=" background-color: #f7f8f8; border: 0 solid;">
+          <div class="col-3 ">
+            <div class="card  w-100" style=" background-color: #f7f8f8; border: 0 solid;">
+              <img src="./image/41BXaKI8AZL._AC_SY400_.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+               <div class="deal">
+                <a href="#" class="btn ">31% OFF</a><strong style="color: #cc0c39; font-size: 20px;">Deal</strong>
+                </div>
+                <a href="#" class="prices d-flex flex-row"><h4>$20.09</h4> List Price:<h5 class="list_price">$29.0</h5></a>
+                <p class="card-text">Callaway Swing Easy Golf Swing Trainer Aid, Orange</p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-3 ">
+            <div class="card  w-100 " style=" background-color: #f7f8f8; border: 0 solid;">
               <img src="./image/sleet.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                <div class="deal">
@@ -330,9 +378,9 @@
             </div>
             
           </div>
-          <div class="col-3">
-            <div class="card  w-100 h-100" style=" background-color: #f7f8f8; border: 0 solid;">
-              <img src="./image/sleet.jpg" class="card-img-top" alt="...">
+          <div class="col-3 ">
+            <div class="card  w-100" style=" background-color: #f7f8f8; border: 0 solid;">
+              <img src="./image/41+sUUyEaJL._AC_SY400_.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                <div class="deal">
                 <a href="#" class="btn ">31% OFF</a><strong style="color: #cc0c39; font-size: 20px;">Deal</strong>
@@ -343,22 +391,9 @@
             </div>
             
           </div>
-          <div class="col-3">
-            <div class="card  w-100 h-100" style=" background-color: #f7f8f8; border: 0 solid;">
-              <img src="./image/sleet.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-               <div class="deal">
-                <a href="#" class="btn ">31% OFF</a><strong style="color: #cc0c39; font-size: 20px;">Deal</strong>
-                </div>
-                <a href="#" class="prices d-flex flex-row"><h4>$20.09</h4> List Price:<h5 class="list_price">$29.0</h5></a>
-                <p class="card-text">Callaway Swing Easy Golf Swing Trainer Aid, Orange</p>
-              </div>
-            </div>
-            
-          </div>
-          <div class="col-3">
-            <div class="card  w-100 h-100" style=" background-color: #f7f8f8;  border: 0 solid;">
-              <img src="./image/sleet.jpg" class="card-img-top" alt="...">
+          <div class="col-3 ">
+            <div class="card  w-100 " style=" background-color: #f7f8f8;  border: 0 solid;">
+              <img src="./image/61SEAHvc+QL._AC_SY400_.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                <div class="deal">
                 <a href="#" class="btn ">31% OFF</a><strong style="color: #cc0c39; font-size: 20px;">Deal</strong>
@@ -379,7 +414,7 @@
 
     <div class="carousel-item">
       <div class="row">
-        <div class="col-3">
+        <div class=" col-3">
           <div class="card  w-100 h-100" style=" background-color: #f7f8f8;  border: 0 solid;">
             <img src="./image/sleet.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -392,7 +427,7 @@
           </div>
           
         </div>
-        <div class="col-3">
+        <div class="col-3 ">
           <div class="card  w-100 h-100" style=" background-color: #f7f8f8;  border: 0 solid;">
             <img src="./image/sleet.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -405,7 +440,7 @@
           </div>
           
         </div>
-        <div class="col-3">
+        <div class=" col-3">
           <div class="card  w-100 h-100" style=" background-color: #f7f8f8;  border: 0 solid;">
             <img src="./image/sleet.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -449,8 +484,8 @@
         <!-- the footer -->
 
       
-      <div class="footer w-100">
-        <p class="back-to-top"><strong><a href="#"> Back To Top </a></strong></p>
+      <div class="footer">
+        <p class="back-to-top text-center "><strong><a href="#"> Back To Top </a></strong></p>
         <table class="table table-borderless">
           <table class="table table-borderless">
             
